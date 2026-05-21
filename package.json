@@ -5,11 +5,8 @@
   "exports": {
     ".": "./src/index.ts"
   },
-  "scripts": {
-    "postinstall": "bash scripts/setup-sqlite.sh"
-  },
   "dependencies": {
-    "@actual-app/api": "latest"
+    "@actual-app/api": "26.5.2"
   },
   "devDependencies": {
     "@electron/rebuild": "^4.0.3",
